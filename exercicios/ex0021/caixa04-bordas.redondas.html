@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    
+    <style> 
+     @font-face{
+            font-family: '';
+            src: url() format('truetype');
+     }    
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.415);
+            border-radius: 10px 0px;
+        }  
+        header > h1{
+            color:rgba(0, 0, 0, 0.92);
+            box-shadow: 3px 3px 3px rgb(0, 0, 0);           text-align: center;
+            font-family: '';
+            font-size: 70px;
+        }
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.627);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.428);
+           
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(175, 175, 175);
+            
+        }
+        article > h2{
+            color: rgb(84, 25, 138);
+            text-align: center;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        section{
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.56);
+        }
+        aside{
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.56);
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: rgba(0, 0, 0, 0.774);
+            margin: 10px;
+            border-radius: 50%;
+            border: 10px;
+            border-color: yellow;
+            border-style:double;
+        }
+        #bola > p{
+            padding: 20%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat architecto eos dolorum nostrum deleniti eum aut adipisci animi non eveniet, saepe corrupti, doloremque neque! Placeat sequi perspiciatis et. Cupiditate, ipsum!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+                
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+
+    </footer>
+    <div id="bola"><p>Jeferson Dev☯</p></div>
+    
+</body>
+</html>
