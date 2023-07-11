@@ -2,7 +2,7 @@
 
 /*Todas as demais mídias*/
 
-/*Typical Decice Breakpoints
+/*Typical Device Breakpoints
 ----------------------------
 Pequenas telas: até 600px
 Celular: de 600px até 768px
@@ -39,7 +39,7 @@ img#tv { display: none; }
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET */
     
     body{
-        backgoround-image: url(../imagens/back-tablet.jpg);
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
     img#phone { display: none; }
