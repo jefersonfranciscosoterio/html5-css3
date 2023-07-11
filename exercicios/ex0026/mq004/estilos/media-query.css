@@ -63,7 +63,7 @@ img#tv { display: none; }
 
 }
 
-@media screen and (min-width:1200px) { /* GRANDES TELAS */
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
