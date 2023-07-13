@@ -8,10 +8,7 @@
     menu{
         display: block;
     }
-    menu > ul{
-        text-align: center;
-    }
-
+    
     menu > ul > li{
         display: inline-block;
       
